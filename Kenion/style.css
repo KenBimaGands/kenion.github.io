@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+html {
+    position: relative;
+}
+body{
+    margin-top: 30px;
+}
+.btn {
+    background-color: blue;
+    color: white;
+}
+.navbar{
+     background-image: url(img/Crispy-Onions-013.jpg);
+     background-size: cover;
+    height: 85px;
+    padding-left: 0;
+}
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar img{
+    margin-top: 10px;
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+    height: auto;
+    margin-left: 10px;
+}
+.navbar-brand {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.navbar-nav {
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.navbar a{
+    color: black;;
+    font-family: 'Montserrat', sans-serif;
+    filter: drop-shadow(2px 2px black)
+}
+.nav li a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+    filter: drop-shadow(1px 1px black)
+}
+.navbar .text1 {
+    margin-top: 5px;
+    background-color: #D2001A;
+    color: white;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 2s;
+}
+.jumbotron h1{
+    font-size: 105px;
+    text-align: left;
+    margin-left: 20px;
+    line-height: 105px;
+    font-weight: 700;
+    filter: drop-shadow(2px 4px 2px black);
+    transition: 2s;
+}
+
+.jumbotron .top1 {
+    margin-top: 75px;
+}
+.jumbotron{
+    background-image: url(img/Crispy-Onions-013.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(250, 243, 243);
+    min-height: 650px;
+    margin-bottom:0;
+}
+.jumbotron p{
+    font-size: 30px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    filter: drop-shadow(2px 4px 2px black);
+}
+.jumbotron h4{
+    margin-top: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    filter: drop-shadow(2px 4px 2px black);
+    transition:2s;
+}
+.about {
+    background-image: url(img/DSCF1729-2-1080x1620.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.about hr{
+    width:250px;
+    border-top: 3px solid white;
+}
+.about h2{
+    font-family: 'Caveat', cursive;
+    color: white;
+    filter: drop-shadow(2px 4px 2px black);
+    font-size: 45px;
+}
+.about .row .col-sm-8{
+    text-align: justify;
+    margin-left: 105px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px black;
+    transition: 2s;
+}
+.about .col-sm-10{
+    margin-top: 10px;
+    text-align: justify;
+    background-color: white;
+    padding-top: 5px;
+    margin-left: 105px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px black;
+    transition: 2s;
+}
+.about .col-sm-4 {
+    text-align:justify;
+    margin-left: 225px;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px black;
+    transition: 2s;
+}
+section{
+    min-height: 600px;
+}
+.portfolio hr{
+    width:250px;
+    border-top: 3px solid rgb(247, 245, 245);
+}
+.portfolio h2{
+    font-family: 'Caveat', cursive;
+    color: white;
+    filter: drop-shadow(2px 4px 2px black);
+    font-size: 45px;
+}
+.contact hr{
+    width:250px;
+    border-top: 3px solid rgb(59, 57, 57);
+}
+.contact h2{
+    font-weight: 600;
+}
+.contact {
+    min-height: 500px;
+}
+.footer {
+    background-color: black;
+    min-height: 100px;
+}
+.row p{
+    color: white;
+    line-height: 100px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.row a{
+    color:white
+}
+.portfolio .col-sm-6 img {
+    float: left;
+    width: 180px;
+    rotate: 20deg;
+    padding-right: 20px;
+    margin-top: -70px;
+    filter: drop-shadow(2px 4px 2px black);
+
+}
+.portfolio .col-sm-6 p {
+    line-height: 20px;
+    font-size: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+    color: white;
+    filter: drop-shadow(2px 2px 4px black);
+}
+.portfolio .col-sm-6{
+    background-color: #D2001A;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    margin-right: 300px;
+    filter: drop-shadow(2px 2px 4px black);
+    transition: 2s;
+}
+.portfolio .col-sm-8 img {
+    float: left;
+    width: 150px;
+    rotate: 20deg;
+    padding-right: 20px;
+    margin-top: -70px;
+    filter: drop-shadow(2px 4px 2px black);
+
+}
+.portfolio .col-sm-8 p {
+    line-height: 20px;
+    font-size: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+    color: white;
+    filter: drop-shadow(2px 2px 4px black);
+}
+.portfolio .col-sm-8{
+    background-color: #D2001A;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    filter: drop-shadow(2px 2px 4px black);
+    transition: 2s;
+}
+.portfolio .col-sm-10 img {
+    float: left;
+    width: 130px;
+    rotate: 20deg;
+    padding-right: 20px;
+    margin-top: -70px;
+    filter: drop-shadow(2px 4px 2px black);
+
+}
+.portfolio .col-sm-10 p {
+    line-height: 30px;
+    font-size: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+    color: white;
+    filter: drop-shadow(2px 2px 4px black);
+}
+.portfolio .col-sm-10{
+    background-color: #D2001A;
+    width: 500px;
+    height: 150px;
+    margin-left: 415px;
+    margin-top: 70px;
+    border-radius: 25px;
+    filter: drop-shadow(2px 2px 4px black);
+    transition: 2s;
+}
+.reviews {
+    background-image: url(img/DSCF1729-2-1080x1620.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.reviews .col-sm-8 {
+ background-color: white;
+ height: 180px;
+ box-shadow: 2px 4px 2px black;
+ width: 800px;
+ border-radius: 25px;
+ border: 2px solid black;
+ transition: 2s;
+}
+.reviews .col-sm-8 img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+.reviews .col-sm-8  p {
+    line-height: 20px;
+    width: 750px;
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reviews .col-sm-8  h3 {
+    line-height: 20px;
+    width: 300px;
+    font-weight: 780;
+    color: black;
+}
+.reviews .col-sm-9 {
+    background-color: white;
+    height: 180px;
+    margin-top: 20px;
+    box-shadow: 2px 4px 2px black;
+    float: right;
+    width: 800px;
+    border-radius: 25px;
+    border: 2px solid black;
+    transition: 2s;
+   }
+   .reviews .col-sm-9 img{
+       width: 150px;
+       height: 150px;
+       margin-top: 10px;
+       float: left;
+       margin-right: 10px;
+       border-radius: 25px;
+   }
+   .reviews .col-sm-9  p {
+       line-height: 20px;
+       width: 750px;
+       text-align: justify;
+       color: black;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   .reviews .col-sm-9  h3 {
+       line-height: 20px;
+       width: 348px;
+       padding-right: 10px;
+       font-weight: 780;
+       color: black;
+   }
+   .reviews .col-sm-12 h2 {
+    font-family: 'Caveat', cursive;
+    color: white;
+    filter: drop-shadow(2px 4px 2px black);
+    font-size: 45px;
+   }
+.reviews hr{
+    width:250px;
+    border-top: 3px solid rgb(255, 255, 255);
+}
+
+/* hovering part woohoo */
+.jumbotron h1:hover{
+    background-color: #D2001A;
+    color: rgb(252, 206, 0);
+    filter: drop-shadow(2px 4px 2px black);
+    transform: scale(1.05);
+}
+.text1:hover {
+    color:#D2001A;
+    background-color: rgb(252, 206, 0) ;
+    font-size: larger;
+}
+.jumbotron h4:hover {
+    background-color: white;
+    color:black;
+    transform: scale(1.05);
+}
+.about .col-sm-8:hover {
+    background-color: black;
+    color: rgb(252, 206, 0);
+    filter: drop-shadow(2px 4px 2px black);
+    transform: scale(1.05);
+}
+.about .col-sm-4:hover {
+    background-color: black;
+    color: rgb(252, 206, 0);
+    filter: drop-shadow(2px 4px 2px black);
+    transform: scale(1.05);
+}.about .col-sm-10:hover {
+    background-color: black;
+    color: rgb(252, 206, 0);
+    filter: drop-shadow(2px 4px 2px black);
+    transform: scale(1.05);
+}
+.portfolio  .col-sm-6:hover {
+    transform:scale(1.5);
+    border: 2px solid black;
+    width: 450px;
+}
+.portfolio  .col-sm-8:hover {
+    transform:scale(1.5);
+    border: 2px solid black;
+    width: 450px;
+}
+.portfolio  .col-sm-10:hover {
+    transform:scale(1.5);
+    border: 2px solid black;
+    width: 450px;
+}
+.reviews .col-sm-8:hover {
+    transform:scale(1.15);
+    border: 2px solid black;
+    
+}
+.reviews .col-sm-9:hover {
+    transform:scale(1.15);
+    border: 2px solid black;
+    
+}
